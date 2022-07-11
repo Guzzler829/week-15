@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #222;
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+}
+
+.row-wrap {
+  flex-wrap: wrap;
+}
+
+.card-container {
+  width: 400px;
+  height: auto;
+  border: 2px solid gray;
+  border-radius: 8px;
+  background-color: #333;
+  margin: 8px;
+  padding: 10px;
+}
+
+.card-container > img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  border-radius: 3px;
+}
+
+.card-container > h3 {
+  text-align: center;
+}
+
+.break-line {
+  width: 100%;
+  border-top: 1px solid gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 8px;
+  margin: 4px;
+  border: none;
+  border-radius: 6px;
+  transition: 120ms ease-out;
+  cursor: pointer;
+  color: #eee;
+  font-size: 1em;
+}
+
+.btn-submit {
+  background-color: rgb(65, 116, 255);
+}
+
+.btn-submit:hover {
+  background-color: rgb(57, 99, 216);
+}
+
+.btn-submit:active {
+  background-color: rgb(45, 77, 167);
+}
+
+.input-container {
+  position: relative;
+}
+
+.the-input {
+  position: relative;
+  border-radius: 4px;
+  background-color: #444;
+  color: #eee;
+  border: 1px gray solid;
+  font-size: 1em;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 6px;
+  width: 315px;
+}
